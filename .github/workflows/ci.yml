@@ -2,9 +2,12 @@ name: CI Pipeline
 
 on:
   push:
-    branches: [develop]
+    branches:
+      - feature/am437xv1
+      - develop
   pull_request:
-    branches: [develop]
+    branches:
+      - develop
 
 jobs:
   build:
